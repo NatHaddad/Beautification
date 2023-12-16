@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Login Form </title>
+    <link rel="stylesheet" href="Loginstyle.css">
+   </head>
+   <body>
+     <div class="center">
+       <h1> Register </h1>
+       <form method="post" action="doregistration.php">
+         <div class="text_field">
+           <input type="text" required name="fname">
+           <span></span>
+           <label> first name </label>
+         </div>
+         <div class="text_field">
+           <input type="password" required name="lname">
+           <span></span>
+           <label> last name </label>
+         </div>
+         <div class="text_field">
+          <input type="text" required name="email">
+          <span></span>
+          <label> email </label>
+        </div>
+        <div class="text_field">
+          <input type="password" required name="password">
+          <span></span>
+          <label> Password </label>
+        </div>
+        <div class="text_field">
+          <input type="text" required name="phone">
+          <span></span>
+          <label> phone number </label>
+        </div>
+         
+         <input type="submit" value="Sign-Up">
+         <div class="signup_link">
+           Already have an account? <a href="login.html">login</a>
+         </div>
+       </form>
+     </div>
+
+ </body>
+</html>
